@@ -1,3 +1,5 @@
+cd ~/telegram
+cat > install.sh << 'EOF'
 #!/bin/bash
 
 # --- Color Definitions ---
@@ -95,3 +97,4 @@ echo -e "\n      ${BLUE}telegram${NC}\n"
 echo -e "${GREEN}==================================================${NC}"
 
 exit 0
+EOF
